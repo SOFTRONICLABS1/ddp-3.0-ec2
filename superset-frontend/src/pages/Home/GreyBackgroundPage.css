@@ -1,0 +1,223 @@
+/* Default styles for all screen sizes */
+.container {
+  background-color: black;
+  color: white;
+  min-height: 94.4vh;
+  width: 100%; /* Add this line to make it 100% width */
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+.word {
+  position: relative;
+  font-style: normal;
+  font-weight: 600;
+  font-family:  Roboto, sans-serif ;
+  font-size: 43px;
+  color: white;
+  transition: opacity 2s ease;
+  z-index: 2;
+  overflow-y: hidden;
+  left:  8% ;
+  top:  240px ;
+}
+
+.subTitle {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-family:  Roboto, sans-serif ;
+  font-size: 30px;
+  color: grey;
+  transition: opacity 2.5s ease;
+  z-index: 2;
+  left:  8% ;
+  top:  250px ;
+}
+
+.loadingGif {
+  position: absolute;
+  top: 11%;
+  left: 50%;
+  width: 800px;
+  height: 650px;
+  opacity: 0; /* Initial opacity */
+  transition: opacity 2s ease;
+  overflow-y: hidden;
+}
+
+.subText {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-family:  Roboto, sans-serif ;
+  font-size: 17px;
+  color: white;
+  opacity: 0; /* Initial opacity */
+  transition: opacity 2s ease;
+  z-index: 2;
+  left:  8% ;
+  top:  270px ;
+}
+
+.subText1 {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-family:  Roboto, sans-serif ;
+  font-size: 17px;
+  color: white;
+  opacity: 0; /* Initial opacity */
+  transition: opacity 2s ease;
+  z-index: 2;
+  left:  8% ;
+  top:  271px ;
+}
+
+.subText2 {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-family:  Roboto, sans-serif ;
+  font-size: 17px;
+  color: white;
+  opacity: 0; /* Initial opacity */
+  transition: opacity 2s ease;
+  z-index: 2;
+  left:  8% ;
+  top:  272px ;
+}
+
+.subText3 {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  font-size: 17px;
+  color: white;
+  opacity: 0; /* Initial opacity */
+  transition: opacity 2s ease;
+  z-index: 2;
+  left: 8%;
+  top: 273px;
+}
+
+
+/* Media queries for different screen sizes */
+@media (max-width: 576px) {
+  .word {
+    font-size: 32px;
+  }
+
+  .subTitle {
+    font-size: 24px;
+  }
+
+  /* Add more styles for small screens here */
+}
+
+@media (max-width: 1440px) {
+  .word {
+    font-size: 32px;
+  }
+
+  .subTitle {
+    font-size: 22px;
+  }
+
+  .loadingGif {
+    width: 600px;
+    height: 600px;
+    top: 30%;
+    left: 40%;
+
+  }
+
+  .subText {
+    font-size: 12px;
+    left: 8%;
+    top: 300px;
+  }
+
+    .subText1 {
+    font-size: 12px;
+    left: 8%;
+    top: 301px;
+  }
+
+    .subText2 {
+    font-size: 12px;
+    left: 8%;
+    top: 302px;
+  }
+
+    .subText3 {
+    font-size: 12px;
+    left: 8%;
+    top: 303px;
+  }
+
+  /* Add more styles for medium screens here */
+}
+
+@media (max-width: 1280px) {
+  /* Add more styles for large screens here */
+    .word {
+    font-size: 30px;
+    left: 8%;
+    top: 180px;
+  }
+
+  .loadingGif {
+    width: 600px;
+    height: 550px;
+    top: 11%;
+    left: 30%;
+
+  }
+
+    .subTitle {
+    font-size: 20px;
+    left: 8%;
+    top: 210px;
+  }
+
+    .subText {
+    font-size: 11px;
+    left: 8%;
+    top: 240px;
+  }
+
+    .subText1 {
+    font-size: 11px;
+    left: 8%;
+    top: 245px;
+  }
+
+    .subText2 {
+    font-size: 11px;
+    left: 8%;
+    top: 250px;
+  }
+
+    .subText3 {
+    font-size: 11px;
+    left: 8%;
+    top: 255px;
+  }
+}
+
+@media (min-width: 1920px) {
+  /* Add more styles for large screens here */
+    .word {
+    font-size: 36px;
+    left:  8% ;
+    top:  240px ;
+  }
+
+  .loadingGif {
+    width: 800px;
+    height: 650px;
+  }
+}
